@@ -15,10 +15,10 @@ from playsound import playsound
 
 # Neccessary credentials required to aunthenticate the connection to access twitter from the API.
 #bhavana
-access_token = '1323310247331745792-Kp7vyZWX39Mcm7KDW04HqKfDNGwWN4'
-access_secret = 'IQHLiLYVUMxMsJ5pBZRDIarOuxuOQ3FKlvA614sXarv8g'
-consumer_key = 'aXUDhNT3iore12pK9hKU0oJXN'
-consumer_secret = 'TLo5Mq0PBIJSARrs1cGdLqSmmv4v3QddHW7bZvbl8ltq6PkwD6'
+access_token = ''
+access_secret = ''
+consumer_key = ''
+consumer_secret = '' 
 
 authorize = tw.OAuthHandler(consumer_key, consumer_secret)
 authorize.set_access_token(access_token, access_secret)
